@@ -204,6 +204,19 @@
             $("#toApp").attr("src", "tkanmanapp://goto?page=starcard&index=1&is_subscribe=0&number=1");
         }
 
+        function pullnewuser() {
+            $("#toApp").attr("src", "tkanmanapp://goto?page=pullnewuser");
+        }
+
+        function termcard() {
+            $("#toApp").attr("src", "tkanmanapp://goto?page=termcard");
+        }
+
+
+        function teamread() {
+            $("#toApp").attr("src", "tkanmanapp://goto?page=teamread");
+        }
+
         function task() {
             $("#toApp").attr("src", "tkanmanapp://goto?page=task");
         }
@@ -718,7 +731,9 @@
 <a class="btn" href="javascript:rechargeDialog()"> 充值中心调起弹框</a><br/>
 <a class="btn" href="javascript:diamondcard()"> 钻石卡唤起弹窗</a><br/>
 <a class="btn" href="javascript:starcard()"> 跳转星币卡页面</a><br/>
-
+<a class="btn" href="javascript:pullnewuser()"> 邀请新用户</a><br/>
+<a class="btn" href="javascript:termcard()"> 学期会员卡</a><br/>
+<a class="btn" href="javascript:teamread()"> 组队免费读</a><br/>
 
 <br/><br/><br/>
 <a class="btn" href="javascript:myluckystar()"> 我的福星</a><br/>
